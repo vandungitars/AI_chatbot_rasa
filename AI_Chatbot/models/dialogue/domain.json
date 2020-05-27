@@ -1,0 +1,27 @@
+{
+  "states": [
+    "intent_ask_func_list",
+    "intent_ask_name",
+    "intent_bye",
+    "intent_give_name",
+    "intent_greet",
+    "intent_thank",
+    "slot_cust_name_0",
+    "slot_cust_sex_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_back",
+    "prev_utter_greet",
+    "prev_utter_bye",
+    "prev_utter_unclear",
+    "prev_utter_func_list",
+    "prev_utter_thank",
+    "prev_utter_ask_name",
+    "prev_utter_greet_with_name"
+  ]
+}
