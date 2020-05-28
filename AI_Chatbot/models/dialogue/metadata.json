@@ -9,10 +9,10 @@
     "utter_func_list": {
       "slots": []
     },
-    "utter_greet_with_name": {
+    "utter_thank": {
       "slots": []
     },
-    "utter_thank": {
+    "utter_greet_with_name": {
       "slots": []
     }
   },
@@ -28,7 +28,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20200525-143734",
+  "trained_at": "20200528-152035",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.2",
   "sklearn": "0.20.4"

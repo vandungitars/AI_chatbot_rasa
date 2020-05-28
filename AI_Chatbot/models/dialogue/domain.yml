@@ -8,6 +8,7 @@ actions:
 - utter_thank
 - utter_ask_name
 - utter_greet_with_name
+- action_get_lottery
 config:
   store_entities_as_slots: true
 entities: []
@@ -24,6 +25,8 @@ intents:
 - ask_name:
     use_entities: true
 - give_name:
+    use_entities: true
+- ask_lottery:
     use_entities: true
 slots:
   cust_name:

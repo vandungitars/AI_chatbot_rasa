@@ -32,5 +32,8 @@ def ask_question(text):
 # ask_question("xin chào")
 # ask_question("Cảm ơn")
 
-ask_question("Anh là Dũng")
-ask_question("Em Ngân")
+# ask_question("Anh là Dũng")
+# ask_question("Em Ngân")
+
+ask_question("Mày cho anh hỏi kết quả đi")
+ask_question("Kết quả thế nào")

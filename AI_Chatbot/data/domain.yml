@@ -6,6 +6,7 @@ intents:
  - ask_func_list
  - ask_name
  - give_name
+ - ask_lottery
 
 slots:
  cust_sex:
@@ -45,3 +46,4 @@ actions:
  - utter_thank
  - utter_ask_name
  - utter_greet_with_name
+ - action_get_lottery

@@ -466,6 +466,22 @@
           }
         ],
         "text": "Chú Hùng"
+      },
+      {
+        "intent": "ask_lottery",
+        "text": "Cho anh xem kết quả đê"
+      },
+      {
+        "intent": "ask_lottery",
+        "text": "Kết quả số xố hôm này thế nào"
+      },
+      {
+        "intent": "ask_lottery",
+        "text": "Mày cho anh hỏi kết quả tý"
+      },
+      {
+        "intent": "ask_lottery",
+        "text": "Có kết quả chưa"
       }
     ],
     "regex_features": [],

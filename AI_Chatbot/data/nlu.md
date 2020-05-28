@@ -109,3 +109,9 @@
 - [Em](cust_sex) là [Trang](cust_name)
 - [Cô](cust_sex) [Vân](cust_name)
 - [Chú](cust_sex) [Hùng](cust_name)
+
+## intent: ask_lottery
+- Cho anh xem kết quả đê
+- Kết quả số xố hôm này thế nào
+- Mày cho anh hỏi kết quả tý
+- Có kết quả chưa

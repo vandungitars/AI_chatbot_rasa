@@ -48,3 +48,13 @@
 ## Đưa tên luôn
 * give_name
   - utter_greet_with_name
+  
+## Chào hỏi và hỏi kết quả xổ số
+* greet
+  - utter_greet
+* ask_lottery
+  - action_get_lottery
+* ask_name
+  - utter_ask_name
+* bye
+  - utter_bye

@@ -11,6 +11,7 @@ from rasa_core_sdk.events import Restarted
 
 import requests
 import json
+import feedparser
 from bs4 import BeautifulSoup
 from pyvi import ViTokenizer, ViPosTagger
 
@@ -74,3 +75,16 @@ class action_reset_slot(Action):
 
     def run(self, dispatcher, tracker, domain):
         return [SlotSet("transfer_nick", None),SlotSet("transfer_amount", None),SlotSet("transfer_amount_unit", None)]
+
+
+
+class action_get_lottery(Action):
+   def name(self):
+          return 'action_get_lottery'
+   def run(self, dispatcher, tracker, domain):
+            url = 'https://xskt.com.vn/rss-feed/mien-bac-xsmb.rss'
+            feed_cnt = feedparser.parse(url)
+            first_node = feed_cnt['entries']
+            return_msg = first_node[0]['title'] + "\n" + first_node[0]['description']
+            dispatcher.utter_message(return_msg)
+            return []
