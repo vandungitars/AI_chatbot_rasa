@@ -2,16 +2,10 @@
 #-----------
 # rasa core
 import logging
-from rasa_core import training
-from rasa_core.actions import Action
 from rasa_core.agent import Agent
-from rasa_core.domain import Domain
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies import FallbackPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
-from rasa_core.featurizers import MaxHistoryTrackerFeaturizer, BinarySingleStateFeaturizer
-from rasa_core.interpreter import RegexInterpreter
-from rasa_core.interpreter import RasaNLUInterpreter
 
 # Function
 #------------
@@ -33,6 +27,4 @@ def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models
 #--------
 train_dialog('data/stories.md', 'data/domain.yml')
 
-
-# curl -XPOST http://localhost:5005/webhooks/rest/webhook -d '{"query":"hi","sender","thang"}'
 

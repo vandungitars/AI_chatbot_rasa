@@ -61,17 +61,17 @@
 * help
   - utter_reply_help
 
-## suprise
-* suprise
-  - utter_suprise
+## surprise
+* surprise
+  - utter_surprise
 
 ## ask love
 * ask_love
   - utter_reply_love
 
 ## ask_information path
-* wat_name
-  - utter_wat_name
+* what_name
+  - utter_what_name
 * how_old
   - utter_how_old
 * gender

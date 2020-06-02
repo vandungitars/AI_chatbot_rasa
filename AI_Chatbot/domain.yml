@@ -1,5 +1,5 @@
 intents:
- - wat_name
+ - what_name
  - greet
  - how_are_u
  - goodbye
@@ -13,7 +13,7 @@ intents:
  - goodnight
  - ask_author
  - ask_relationship
- - suprise
+ - surprise
  - address
  - gender
  - sing_poem
@@ -88,7 +88,7 @@ templates:
   - text: Bố bảo còn nhỏ, bạn bè quan trọng nhất
  utter_reply_relationship:
   - text: Một mình vẫn ổn
- utter_suprise:
+ utter_surprise:
   - text: Làm gì mà la dữ vậy
   - text: hihi =)
  utter_hello:
@@ -99,7 +99,7 @@ templates:
   - text: Cô bạn gái vừa chia tay tui rồi
   - text: Bố mới la tui xong
   - text: Mệt lắm nhưng vẫn ngồi nói chuyện với bạn nè
- utter_wat_name:
+ utter_what_name:
   - text: Tôi là Meno
   - text: Mọi người gọi tôi là ngáo nhưng tôi thích Meno hơn
   - text: Bố đặt tên tôi là Meno
@@ -155,9 +155,9 @@ actions:
  - utter_reply_relationship
  - utter_reply_help
  - utter_reply_love
- - utter_suprise
+ - utter_surprise
  - utter_how_are_u
- - utter_wat_name
+ - utter_what_name
  - utter_sing_poem
  - utter_comedy_story
  - utter_address

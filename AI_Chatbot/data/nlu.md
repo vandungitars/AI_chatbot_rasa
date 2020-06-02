@@ -19,6 +19,7 @@
 ## intent:ask_author
 - ai là người tạo ra bạn
 - ai đẻ ra bạn
+- ai tạo ra mày
 
 ## intent:ask_love
 - bạn có yêu tôi không
@@ -162,7 +163,7 @@
 - bạn biết đọc thơ không
 - hát đi bạn
 
-## intent:suprise
+## intent:surprise
 - ôi trời
 - trời ơi
 - quao
@@ -175,7 +176,7 @@
 - cảm ơn
 - cảm ơn rất nhiều
 
-## intent:wat_name
+## intent:what_name
 - bạn tên gì thế
 - tên của bạn là gì
 - bạn tên gì
