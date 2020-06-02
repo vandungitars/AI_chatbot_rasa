@@ -1,60 +1,121 @@
+## happy path
+* greet
+  - utter_hello
+  - utter_greet
+* mood_great
+  - utter_happy
 
-## Chào - tên - hỏi chức năng - chào
+## sad path 1
 * greet
+  - utter_hello
   - utter_greet
-* ask_name
-  - utter_ask_name
-* ask_func_list
-  - utter_func_list
-* bye
-  - utter_bye
-  
-## Chào  - hỏi chức năng - chào
-* greet
-  - utter_greet
-* ask_func_list
-  - utter_func_list
-* bye
-  - utter_bye
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* affirm
+  - utter_happy
 
-## Chào  - hỏi tên - chào
+## sad path 2
 * greet
+  - utter_hello
   - utter_greet
-* ask_name
-  - utter_ask_name
-* bye
-  - utter_bye
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* deny
+  - utter_goodbye
 
-## Hỏi tên - hỏi chức năng
-* ask_name
-  - utter_ask_name
-* ask_func_list
-  - utter_func_list
+## greet path 2
+* greet
+  - utter_hello
+  - utter_greet
+* deny
+  - utter_reply_help
 
-## Cảm ơn
-* thank
-  - utter_thank
-  
-## Chào hỏi - đưa tên
-* greet
-  - utter_greet
-* give_name
-  - utter_greet_with_name
-* ask_name
-  - utter_ask_name
-* bye
-  - utter_bye
-  
-## Đưa tên luôn
-* give_name
-  - utter_greet_with_name
-  
-## Chào hỏi và hỏi kết quả xổ số
-* greet
-  - utter_greet
-* ask_lottery
-  - action_get_lottery
-* ask_name
-  - utter_ask_name
-* bye
-  - utter_bye
+## say goodbye
+* goodbye
+  - utter_goodbye
+
+## fallback
+  - utter_default
+
+## thank you
+* thanks
+  - utter_nothing
+  - utter_nextwork
+
+## say introduce
+* introduce
+  - utter_introduce
+
+## goodnight
+* goodnight
+  - utter_thanks
+  - utter_goodnight
+
+## ask author
+* ask_author
+  - utter_author
+
+## help
+* help
+  - utter_reply_help
+
+## suprise
+* suprise
+  - utter_suprise
+
+## ask love
+* ask_love
+  - utter_reply_love
+
+## ask_information path
+* wat_name
+  - utter_wat_name
+* how_old
+  - utter_how_old
+* gender
+  - utter_gender
+* address
+  - utter_address
+
+## how old
+* how_old
+  - utter_how_old
+
+## gender
+* gender
+  - utter_gender
+
+## address
+* address
+  - utter_address
+
+## how are u
+* how_are_u
+  - utter_how_are_u
+
+## sing poem
+* sing_poem
+  - utter_sing_poem
+
+## comedy_story
+* comedy_story
+  - utter_comedy_story
+
+## affirm
+* affirm
+  - utter_nextwork
+
+## scold
+* scold
+  - utter_scold
+  - utter_hurt
+
+## ask relationship
+* ask_relationship
+  - utter_reply_relationship
+
+## look up dictionary
+* lookUp_english
+  - action_lookUp_en

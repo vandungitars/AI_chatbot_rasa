@@ -1,117 +1,184 @@
-## intent:greet
-- xin chào
-- chào bạn
-- hello
-- hi
-- hey
-- mình có vài câu hỏi
-- có ai giúp mình không
-- bạn ơi
-- anh ơi
-- chị ơi
-- cháu ơi
-- hello 
-- chào 
-- hi 
-- có ai ở đây không?
+## intent:address
+- nhà bạn ở đâu
+- bạn ở đâu
+- bạn ở chỗ nào
+- bạn ở nhà nào
+- địa chỉ nhà bạn chỗ nào
+- địa chỉ nhà bạn ở đâu
+- bạn sinh ra ở đâu
 
-## intent:bye
-- tạm biệt
-- chào tạm biệt
-- chào tạm biệt em
-- tạm biệt em
-- tạm biệt em nhé
-
-
-## intent:thank
-- chuẩn
-- hay
-- siêu
-- tuyệt
-- cám ơn
-- thanks
-- thank you
+## intent:affirm
+- vâng
+- được rồi
+- tất nhiên
+- nghe hay đó
+- chính xác
 - ok
-- cảm ơn em
-- cảm ơn em nhiều nhé
-- cảm ơn
+- okay
 
-## intent:ask_func_list
-- bạn có thể làm được những gì
-- bạn giúp được gì nào
-- chức năng của bạn là gì
-- bạn có thể làm được mấy chức năng
-- bạn giỏi nhất làm gì
-- bạn có tư vấn giúp mình được không
-- việc gì bạn làm được
-- kể xem bạn làm được gì
-- cho mình biết bạn làm được gì nhé
-- bạn hữu dụng như thế nào
-- bạn có ích trong những việc gì
-- lĩnh vực gì bạn giỏi nhất
-- mình tò mò về những việc bạn làm được
-- chẳng biết bạn làm được gì
-- bạn tệ nhất trong việc gì
-- bạn biết được những lĩnh vực gì
-- bạn giỏi hỗ trợ nhất trong lĩnh vực gì
-- kể cho mình biết những việc bạn có thể làm được nhé
-- nói cho mình về những việc bạn giúp được mình
-- bạn giúp được mình gì nào
-- bạn có thể làm gì
-- em giúp được gì
-- em làm được gì
-- mày biết làm gì
-- em biết làm gì
+## intent:ask_author
+- ai là người tạo ra bạn
+- ai đẻ ra bạn
+
+## intent:ask_love
+- bạn có yêu tôi không
+- tôi làm người yêu bạn được không
+- tôi làm bạn của bạn được không
+- tôi thích bạn được không
+- tôi thích bạn
+
+## intent:ask_relationship
+- bạn có người yêu chưa
+- bạn có bạn không
+- bạn có thích ai không
+- bạn có yêu ai không
+
+## intent:comedy_story
+- bạn biết kể chuyện không
+- kể chuyện cho mình nghe đi
+
+## intent:deny
+- hong
+- không á
+- không nhé
+- không bao giờ
+- tôi không nghĩ vậy
+- đừng như vậy chứ
+- không đời nào
+- hoàn toàn không
+
+## intent:gender
+- bạn là nam hay nữ
+- bạn giới tính là gì
+- bạn thích nam hay nữ
+- bạn là trai hay gái
+- bạn thích trai hay gái
+- bạn là nam hả
+- bạn là con trai hay con gái
+- bạn là gái hả
+- bạn là đàn ông hay phụ nữ
+- bạn có phải là đàn ông không
+- bạn có phải là gay không
+- bạn có phải là les không
+
+## intent:goodbye
+- tạm biệt
+- hẹn gặp lại
+- gặp lại sau
+- lúc khác gặp lại
+
+## intent:goodnight
+- chúc ngủ ngon
+- chúc bạn ngủ ngon
+- ngủ ngon nha
+- ngủ ngon
+
+## intent:greet
+- này
+- xin chào
+- chào
+- chào buổi sáng
+- chào buổi tối
+- chào buổi chiều
+
+## intent:help
+- cứu với
+- giúp tôi
+- giúp với
+- cứu
+
+## intent:how_are_u
+- bạn có khỏe không
+- dạo này bạn thế nào
+- bạn sao rồi
+
+## intent:how_old
+- bạn mấy tuổi rồi
+- bạn nhiêu tuổi thế
+- bạn sinh năm bao nhiêu
+- bạn học lớp mấy rồi
+- bạn học cấp mấy
+
+## intent:introduce
+- bạn có thể làm gì nào
+- kiểm tra
+- bạn có thể giúp gì cho tôi
 - bạn biết làm gì
-- biết làm gì
-- làm được gì 
-- có làm được gì 
-- có làm được trò gì 
-- giúp giúp cái gì
-- biết gì mà nói
-- làm được gì
-- giúp được gì
-- mày làm được gì
-- có biết gì 
+- bạn được việc không
 
-## intent:ask_name
-- bạn tên gì
-- tên gì
-- chị tên gì
-- anh tên gì
-- tên của bạn là gì
-- tên của chị là gì
-- tên của anh là gì
-- cho mình hỏi tên nhé
-- mình muốn biết tên bạn
-- mình muốn tiện xưng hộ hơn, cho mình biết tên nhé
-- để tiện xưng hộ thì tên bạn là gì
-- cho em xin tên của anh ạ
-- cho em xin tên của chị ạ
-- được biết tên bạn thì tốt nhỉ
-- vui lòng cho mình biết tên nhé
-- xin phép hỏi tên của bạn
-- vậy thì tên bạn là gì
-- tên bạn trong tiếng việt là gì
-- bạn có vui lòng cho mình biết tên được không
-- chúng ta nên biết tên nhau nhỉ?
-- em tên là gì thế
-- tên em là gì
-- tên em 
-- tên bạn 
-- bạn tên là gì 
+## intent:lookUp_english
+- tôi cần tra nghĩa từ [happy](enword)
+- tôi cần tra từ [avoid](enword)
+- tra từ [consider](enword)
+- tra từ tiếng anh [hello](enword)
+- từ điển tiếng anh [address](enword)
+- dịch từ tiếng anh [sarrow](enword)
+- dịch từ [afternoon](enword)
+- [beautiful](enword) nghĩa là gì
+- [handsome](enword) nghĩa tiếng việt là gì
+- tôi cần tra từ [happy](enword)
+- tra nghĩa của từ [happy](enword)
+
+## intent:mood_great
+- tuyệt vời
+- rất tốt
+- tuyệt
+- đáng kinh ngạc
+- hoàn hảo
+- tôi cảm thấy rất tuyệt
+- tôi rất khỏe
+- tôi rất tốt
+
+## intent:mood_unhappy
+- buồn ghê
+- quá buồn
+- quá chán
+- tệ
+- rất tệ
+- tồi tệ
+- kinh khủng
+- không ổn lắm
+- cực kỳ chán
+- cực kỳ buồn
+- tôi buồn
+- huhu
+
+## intent:scold
+- khùng quá
+- điên quá
+- chập mạch
+- hâm quá
+- mất dạy
+- vô học
+- bạn bị ngu hả
+- thần kinh
+- ngáo quá
+
+## intent:sing_poem
+- bạn biết hát không
+- hát cho mình nghe đi
+- đọc thơ đi bạn
+- đọc thơ cho mình nghe
+- bạn biết đọc thơ không
+- hát đi bạn
+
+## intent:suprise
+- ôi trời
+- trời ơi
+- quao
+- wow
+
+## intent:thanks
+- cảm ơn nhiều
+- cảm ơn nhé
+- cảm ơn nha
+- cảm ơn
+- cảm ơn rất nhiều
+
+## intent:wat_name
 - bạn tên gì thế
-- em tên gì
+- tên của bạn là gì
+- bạn tên gì
 
-##intent: give_name
-- [Anh](cust_sex) là [Dũng](cust_name)
-- [Chị](cust_sex) là [Ngân](cust_name)
-- [Em](cust_sex) là [Trang](cust_name)
-- [Cô](cust_sex) [Vân](cust_name)
-- [Chú](cust_sex) [Hùng](cust_name)
-
-## intent: ask_lottery
-- Cho anh xem kết quả đê
-- Kết quả số xố hôm này thế nào
-- Mày cho anh hỏi kết quả tý
-- Có kết quả chưa
+## lookup:enword
+data/englishword.txt
