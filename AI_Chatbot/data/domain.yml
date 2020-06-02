@@ -22,6 +22,7 @@ intents:
  - scold
  - ask_love
  - lookUp_english
+ - ask_lottery
 entities:
  - enword
  - sentiment
@@ -137,6 +138,9 @@ templates:
   - text: Ủa, sạo bạn lại nói tui vậy chứ
  utter_hereuare:
   - text: Bằng sự thông thái của tôi, đây là thứ bạn cần tìm
+ utter_unclear:
+  - text: Nói gì đấy!!! Không hiểu gì luôn :))
+
 actions:
  - utter_hello
  - utter_greet
@@ -167,3 +171,5 @@ actions:
  - utter_hurt
  - action_lookUp_en
  - utter_hereuare
+ - utter_unclear
+ - action_get_lottery

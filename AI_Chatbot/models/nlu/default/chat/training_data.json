@@ -636,6 +636,22 @@
       {
         "intent": "what_name",
         "text": "bạn tên gì"
+      },
+      {
+        "intent": "ask_lottery",
+        "text": "Cho anh xem kết quả sổ xố đê"
+      },
+      {
+        "intent": "ask_lottery",
+        "text": "Kết quả sổ xố hôm này thế nào"
+      },
+      {
+        "intent": "ask_lottery",
+        "text": "Mày cho anh hỏi kết quả tý"
+      },
+      {
+        "intent": "ask_lottery",
+        "text": "Có kết quả sổ xố chưa"
       }
     ],
     "regex_features": [],

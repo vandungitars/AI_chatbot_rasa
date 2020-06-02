@@ -181,5 +181,12 @@
 - tên của bạn là gì
 - bạn tên gì
 
+## intent:ask_lottery
+- Cho anh xem kết quả sổ xố đê
+- Kết quả sổ xố hôm này thế nào
+- Mày cho anh hỏi kết quả tý
+- Có kết quả sổ xố chưa
+
+
 ## lookup:enword
 data/englishword.txt

@@ -119,3 +119,14 @@
 ## look up dictionary
 * lookUp_english
   - action_lookUp_en
+  
+
+## ask lottery
+* greet
+  - utter_hello
+  - utter_greet
+* ask_lottery
+  - action_get_lottery
+* bye
+  - utter_goodbye
+

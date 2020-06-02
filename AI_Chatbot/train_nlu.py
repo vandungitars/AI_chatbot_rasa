@@ -35,3 +35,4 @@ def ask_question(text):
 # ask_question("Em Ngân")
 
 ask_question("Ai tạo ra mày")
+ask_question("Kết quả sổ xố thế nào mày")
