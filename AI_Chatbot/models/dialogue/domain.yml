@@ -26,6 +26,7 @@ actions:
 - utter_address
 - utter_gender
 - utter_how_old
+- utter_confide
 - utter_scold
 - utter_hurt
 - action_lookUp_en
@@ -81,6 +82,8 @@ intents:
     use_entities: true
 - scold:
     use_entities: true
+- confide:
+    use_entities: true
 - ask_love:
     use_entities: true
 - lookUp_english:
@@ -111,6 +114,9 @@ templates:
   - text: "Ba giờ sáng, hai vợ chồng nhà nọ đang ngủ. Bỗng bà vợ ngủ mê kêu ré lên:\n\
       – Chết rồi, chồng em về! \n Ông chồng tỉnh ngay dậy, quơ vội quần áo nhảy ra\
       \ cửa sổ."
+  utter_confide:
+  - text: Bạn sao thế? kể mình nghe xem nào?
+  - text: Bạn có chuyện gì sao?
   utter_default:
   - text: Bạn nói cái gì tui hỏng có hỉu
   - text: Xung quanh anh toàn là nước eiii
@@ -131,11 +137,10 @@ templates:
   - text: Ngủ mơ thấy mình nha
   utter_greet:
   - text: Này! Bạn khỏe chứ?
-  - text: Bạn còn làm ở đó hong ta <3
   - text: Dạo này bạn sao rồi?
   - text: Bạn cần tui giúp gì nè ^^
   utter_happy:
-  - text: Tuyệt! Tôi thích nghe điều đó
+  - text: Tuyệt! Tôi thích nghe điều đó!
   utter_hello:
   - text: Chào cậu
   utter_hereuare:
@@ -193,8 +198,6 @@ templates:
   - text: Cảm ơn bạn nhiều nha
   - text: Cảm ơn bạn iu quý <3
   - text: Bạn tuyệt vời lắm đó!
-  utter_timez:
-  - text: 'Bây giờ ở {timezone} là:'
   utter_unclear:
   - text: Nói gì đấy!!! Không hiểu gì luôn :))
   utter_what_name:

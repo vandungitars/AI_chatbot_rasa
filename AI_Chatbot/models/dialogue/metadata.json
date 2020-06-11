@@ -3,55 +3,61 @@
     "action_listen": {
       "slots": []
     },
-    "utter_hurt": {
-      "slots": []
-    },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "action_lookUp_en": {
-      "slots": []
-    },
-    "utter_nextwork": {
-      "slots": []
-    },
-    "utter_happy": {
-      "slots": []
-    },
     "utter_reply_help": {
-      "slots": []
-    },
-    "utter_reply_love": {
-      "slots": []
-    },
-    "utter_default": {
       "slots": []
     },
     "utter_introduce": {
       "slots": []
     },
-    "utter_surprise": {
-      "slots": []
-    },
-    "utter_sing_poem": {
-      "slots": []
-    },
-    "utter_address": {
-      "slots": []
-    },
-    "utter_goodnight": {
+    "utter_goodbye": {
       "slots": []
     },
     "utter_how_old": {
       "slots": []
     },
+    "utter_default": {
+      "slots": []
+    },
+    "utter_happy": {
+      "slots": []
+    },
+    "utter_address": {
+      "slots": []
+    },
+    "utter_surprise": {
+      "slots": []
+    },
+    "utter_reply_love": {
+      "slots": []
+    },
+    "action_lookUp_en": {
+      "slots": []
+    },
+    "utter_goodnight": {
+      "slots": []
+    },
+    "utter_hurt": {
+      "slots": []
+    },
     "utter_comedy_story": {
+      "slots": []
+    },
+    "utter_sing_poem": {
       "slots": []
     },
     "utter_how_are_u": {
       "slots": []
     },
+    "utter_author": {
+      "slots": []
+    },
+    "utter_nextwork": {
+      "slots": []
+    },
     "utter_gender": {
+      "slots": []
+    },
+    "utter_confide": {
       "slots": []
     },
     "utter_reply_relationship": {
@@ -70,7 +76,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20200602-233414",
+  "trained_at": "20200605-142818",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.2",
   "sklearn": "0.20.4"

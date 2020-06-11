@@ -6,6 +6,8 @@
 - địa chỉ nhà bạn chỗ nào
 - địa chỉ nhà bạn ở đâu
 - bạn sinh ra ở đâu
+- mày từ đâu ra
+- mày đến từ đâu
 
 ## intent:affirm
 - vâng
@@ -51,15 +53,15 @@
 ## intent:gender
 - bạn là nam hay nữ
 - bạn giới tính là gì
-- bạn thích nam hay nữ
+- mày thích nam hay nữ
 - bạn là trai hay gái
 - bạn thích trai hay gái
 - bạn là nam hả
 - bạn là con trai hay con gái
-- bạn là gái hả
+- mày là gái hả
 - bạn là đàn ông hay phụ nữ
 - bạn có phải là đàn ông không
-- bạn có phải là gay không
+- mày có phải là gay không
 - bạn có phải là les không
 
 ## intent:goodbye
@@ -92,6 +94,11 @@
 - bạn có khỏe không
 - dạo này bạn thế nào
 - bạn sao rồi
+- bạn thế nào
+- mày khỏe chứ
+- hôm nay ổn chứ
+- tình hình sức khỏe thế nào
+- dạo này ổn chứ
 
 ## intent:how_old
 - bạn mấy tuổi rồi
@@ -99,9 +106,10 @@
 - bạn sinh năm bao nhiêu
 - bạn học lớp mấy rồi
 - bạn học cấp mấy
+- mấy tuổi rồi
 
 ## intent:introduce
-- bạn có thể làm gì nào
+- bạn có thể làm được những gì
 - kiểm tra
 - bạn có thể giúp gì cho tôi
 - bạn biết làm gì
@@ -176,6 +184,13 @@
 - cảm ơn
 - cảm ơn rất nhiều
 
+## intent:confide
+- hôm nay mình buồn quá
+- mình buồn quá
+- mình có chuyện muốn tâm sự
+- tao buồn quá mày ơi
+- tâm sự với tao được không
+
 ## intent:what_name
 - bạn tên gì thế
 - tên của bạn là gì
@@ -186,7 +201,6 @@
 - Kết quả sổ xố hôm này thế nào
 - Mày cho anh hỏi kết quả tý
 - Có kết quả sổ xố chưa
-
 
 ## lookup:enword
 data/englishword.txt

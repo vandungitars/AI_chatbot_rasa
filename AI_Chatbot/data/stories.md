@@ -119,7 +119,6 @@
 ## look up dictionary
 * lookUp_english
   - action_lookUp_en
-  
 
 ## ask lottery
 * greet
@@ -130,3 +129,13 @@
 * bye
   - utter_goodbye
 
+## confide
+* greet
+  - utter_hello
+  - utter_greet
+* confide
+  - utter_confide
+* comedy_story
+  - utter_comedy_story
+* bye
+  - utter_goodbye

@@ -20,6 +20,7 @@ intents:
  - how_old
  - comedy_story
  - scold
+ - confide
  - ask_love
  - lookUp_english
  - ask_lottery
@@ -32,7 +33,6 @@ slots:
 templates:
  utter_greet:
   - text: Này! Bạn khỏe chứ?
-  - text: Bạn còn làm ở đó hong ta <3
   - text: Dạo này bạn sao rồi?
   - text: Bạn cần tui giúp gì nè ^^
  utter_cheer_up:
@@ -42,11 +42,9 @@ templates:
  utter_did_that_help:
   - text: Cái này có giúp bạn không ta?
  utter_happy:
-  - text: Tuyệt! Tôi thích nghe điều đó
+  - text: Tuyệt! Tôi thích nghe điều đó!
  utter_nextwork:
   - text: Bạn còn cần gì nữa hem nè :<
- utter_timez:
-  - text: 'Bây giờ ở {timezone} là:'
  utter_goodbye:
   - text: Tạm biệt bạn
  utter_default:
@@ -114,10 +112,12 @@ templates:
   - text: Mình cũng không biết nữa :<
   - text: Dù gái hay trai vẫn là cháu vua Hùng :D
   - text: Trong mình có 96,69% là nam nha
+ utter_confide:
+  - text: Bạn sao thế? kể mình nghe xem nào?
+  - text: Bạn có chuyện gì sao?
  utter_address:
   - text: Mình sinh ra và lớn lên ở trong tim của cậu
-  - text: Đến giờ mình chưa biết mình đến từ đâu, bạn cho mình ở tạm trong tim bạn
-     nhé
+  - text: Đến giờ mình chưa biết mình đến từ đâu, bạn cho mình ở tạm trong tim bạn nhé
   - text: Mình không có nhà, mình cũng không biết sinh ra ở đâu
  utter_comedy_story:
   - text: "Ba giờ sáng, hai vợ chồng nhà nọ đang ngủ. Bỗng bà vợ ngủ mê kêu ré lên:\n\
@@ -167,6 +167,7 @@ actions:
  - utter_address
  - utter_gender
  - utter_how_old
+ - utter_confide
  - utter_scold
  - utter_hurt
  - action_lookUp_en
